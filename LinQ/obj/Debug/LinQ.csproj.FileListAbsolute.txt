@@ -1,0 +1,7 @@
+C:\Users\phamh\source\repos\Hackkathon\LinQ\bin\Debug\LinQ.dll.config
+C:\Users\phamh\source\repos\Hackkathon\LinQ\bin\Debug\LinQ.dll
+C:\Users\phamh\source\repos\Hackkathon\LinQ\bin\Debug\LinQ.pdb
+C:\Users\phamh\source\repos\Hackkathon\LinQ\obj\Debug\LinQ.csprojAssemblyReference.cache
+C:\Users\phamh\source\repos\Hackkathon\LinQ\obj\Debug\LinQ.csproj.CoreCompileInputs.cache
+C:\Users\phamh\source\repos\Hackkathon\LinQ\obj\Debug\LinQ.dll
+C:\Users\phamh\source\repos\Hackkathon\LinQ\obj\Debug\LinQ.pdb

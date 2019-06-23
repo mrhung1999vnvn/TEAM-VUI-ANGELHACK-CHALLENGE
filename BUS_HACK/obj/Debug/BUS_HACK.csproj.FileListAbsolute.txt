@@ -1,0 +1,13 @@
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\BUS_HACK.dll
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\BUS_HACK.pdb
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\DAL_HACK.dll
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\DAL_HACK.pdb
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\DAL_HACK.dll.config
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\obj\Debug\BUS_HACK.csprojAssemblyReference.cache
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\obj\Debug\BUS_HACK.csproj.CoreCompileInputs.cache
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\obj\Debug\BUS_HACK.csproj.CopyComplete
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\obj\Debug\BUS_HACK.dll
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\obj\Debug\BUS_HACK.pdb
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\LinQ.dll
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\LinQ.pdb
+C:\Users\phamh\source\repos\Hackkathon\BUS_HACK\bin\Debug\LinQ.dll.config

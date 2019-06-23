@@ -1,0 +1,11 @@
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\DAL_HACK.dll.config
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\DAL_HACK.dll
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\DAL_HACK.pdb
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\obj\Debug\DAL_HACK.csprojAssemblyReference.cache
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\obj\Debug\DAL_HACK.csproj.CoreCompileInputs.cache
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\obj\Debug\DAL_HACK.dll
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\obj\Debug\DAL_HACK.pdb
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\LinQ.dll
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\LinQ.pdb
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\bin\Debug\LinQ.dll.config
+C:\Users\phamh\source\repos\Hackkathon\DAL_HACK\obj\Debug\DAL_HACK.csproj.CopyComplete

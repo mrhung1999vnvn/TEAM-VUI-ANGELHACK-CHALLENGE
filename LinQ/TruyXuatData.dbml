@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EnglishDB" Class="TruyXuatDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-16PLU27\SQLEXPRESS;Initial Catalog=EnglishDB;Integrated Security=True" SettingsObjectName="LinQ.Properties.Settings" SettingsPropertyName="EnglishDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Dictionary" Member="tbl_Dictionaries">
+    <Type Name="tbl_Dictionary">
+      <Column Name="ID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WORD" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TYPE" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DEFINE" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="VD" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Association Name="tbl_Dictionary_tbl_Baitap" Member="tbl_Baitaps" ThisKey="ID" OtherKey="IDDIC" Type="tbl_Baitap" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_TuChuaHoc" Member="tbl_TuChuaHocs">
+    <Type Name="tbl_TuChuaHoc">
+      <Column Name="ID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="tbl_User_tbl_TuChuaHoc" Member="tbl_User" ThisKey="ID" OtherKey="ID" Type="tbl_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_TuDaHoc" Member="tbl_TuDaHocs">
+    <Type Name="tbl_TuDaHoc">
+      <Column Name="ID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="tbl_User_tbl_TuDaHoc" Member="tbl_User" ThisKey="ID" OtherKey="ID" Type="tbl_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_User" Member="tbl_Users">
+    <Type Name="tbl_User">
+      <Column Name="ID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USERNAME" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="tbl_User_tbl_TuChuaHoc" Member="tbl_TuChuaHocs" ThisKey="ID" OtherKey="ID" Type="tbl_TuChuaHoc" />
+      <Association Name="tbl_User_tbl_TuDaHoc" Member="tbl_TuDaHocs" ThisKey="ID" OtherKey="ID" Type="tbl_TuDaHoc" />
+      <Association Name="tbl_User_tbl_Baitap" Member="tbl_Baitaps" ThisKey="ID" OtherKey="IDUSER" Type="tbl_Baitap" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Baitap" Member="tbl_Baitaps">
+    <Type Name="tbl_Baitap">
+      <Column Name="ID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BAITAP" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="DANGBAI" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDDIC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IDUSER" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DAPAN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tbl_Dictionary_tbl_Baitap" Member="tbl_Dictionary" ThisKey="IDDIC" OtherKey="ID" Type="tbl_Dictionary" IsForeignKey="true" />
+      <Association Name="tbl_User_tbl_Baitap" Member="tbl_User" ThisKey="IDUSER" OtherKey="ID" Type="tbl_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

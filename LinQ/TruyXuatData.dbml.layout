@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TruyXuatData">
+  <DataContextMoniker Name="/TruyXuatDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7dc4f161-a5f8-485e-9b0a-beb298c358fa" absoluteBounds="4.875, 0.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/TruyXuatDataDataContext/tbl_Dictionary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9470c92-6f1d-45a1-aa0d-889182ce5050" absoluteBounds="4.89, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9c67209-e16e-40a9-8e5b-dec655b6d361" absoluteBounds="4.5, 3.125, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/TruyXuatDataDataContext/tbl_TuChuaHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28940916-106f-47a6-b069-cb011dba4840" absoluteBounds="4.515, 3.585, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67d396df-1eb0-4844-828c-296b076e047b" absoluteBounds="0.5, 0.5, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/TruyXuatDataDataContext/tbl_TuDaHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05f7f26e-52ef-46d8-a8f5-bb9c9e54a7d9" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f47a3e40-28f4-4622-a8b5-9ae404c83ea6" absoluteBounds="0.5, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/TruyXuatDataDataContext/tbl_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ccbf7c08-6722-4ea4-b68c-d4bae3961ef3" absoluteBounds="0.515, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.01369466145833); (4.5 : 4.01369466145833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TruyXuatDataDataContext/tbl_User/tbl_User_tbl_TuChuaHoc" />
+      <nodes>
+        <classShapeMoniker Id="f47a3e40-28f4-4622-a8b5-9ae404c83ea6" />
+        <classShapeMoniker Id="e9c67209-e16e-40a9-8e5b-dec655b6d361" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 3.375); (1.5 : 1.50169108072917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TruyXuatDataDataContext/tbl_User/tbl_User_tbl_TuDaHoc" />
+      <nodes>
+        <classShapeMoniker Id="f47a3e40-28f4-4622-a8b5-9ae404c83ea6" />
+        <classShapeMoniker Id="67d396df-1eb0-4844-828c-296b076e047b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3cf56038-d6da-491c-865e-039ff59e18ba" absoluteBounds="3.375, 1.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TruyXuatDataDataContext/tbl_Baitap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c552dce-5477-4133-8f5f-11cd39dde927" absoluteBounds="3.39, 2.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 1.51044840494792); (3.125 : 1.51044840494792); (3.125 : 2.85659912109375); (3.375 : 2.85659912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TruyXuatDataDataContext/tbl_Dictionary/tbl_Dictionary_tbl_Baitap" />
+      <nodes>
+        <classShapeMoniker Id="7dc4f161-a5f8-485e-9b0a-beb298c358fa" />
+        <classShapeMoniker Id="3cf56038-d6da-491c-865e-039ff59e18ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 3.60659912109375); (3.375 : 3.60659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TruyXuatDataDataContext/tbl_User/tbl_User_tbl_Baitap" />
+      <nodes>
+        <classShapeMoniker Id="f47a3e40-28f4-4622-a8b5-9ae404c83ea6" />
+        <classShapeMoniker Id="3cf56038-d6da-491c-865e-039ff59e18ba" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
